@@ -1,0 +1,7 @@
+{
+  "name": "handyjson-repro",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "react-vite"
+}
