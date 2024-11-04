@@ -19,8 +19,7 @@ end
 
 target 'App' do
   capacitor_pods
-  pod 'HandyJSON', '~> 5.0.3-beta'
-  # Add your Pods here
+  pod 'HandyJSON', :git => 'https://github.com/Miles-Matheson/HandyJSON.git'
 end
 
 post_install do |installer|

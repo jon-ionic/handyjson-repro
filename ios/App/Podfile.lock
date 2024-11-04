@@ -19,11 +19,7 @@ DEPENDENCIES:
   - "CapacitorHaptics (from `../../node_modules/@capacitor/haptics`)"
   - "CapacitorKeyboard (from `../../node_modules/@capacitor/keyboard`)"
   - "CapacitorStatusBar (from `../../node_modules/@capacitor/status-bar`)"
-  - HandyJSON (~> 5.0.3-beta)
-
-SPEC REPOS:
-  trunk:
-    - HandyJSON
+  - HandyJSON (from `https://github.com/Miles-Matheson/HandyJSON.git`)
 
 EXTERNAL SOURCES:
   Capacitor:
@@ -38,6 +34,13 @@ EXTERNAL SOURCES:
     :path: "../../node_modules/@capacitor/keyboard"
   CapacitorStatusBar:
     :path: "../../node_modules/@capacitor/status-bar"
+  HandyJSON:
+    :git: https://github.com/Miles-Matheson/HandyJSON.git
+
+CHECKOUT OPTIONS:
+  HandyJSON:
+    :commit: de8a7126d2270da55cea3cb45dadffcfd002dbbe
+    :git: https://github.com/Miles-Matheson/HandyJSON.git
 
 SPEC CHECKSUMS:
   Capacitor: 679f9673fdf30597493a6362a5d5bf233d46abc2
@@ -48,6 +51,6 @@ SPEC CHECKSUMS:
   CapacitorStatusBar: b81d4fb5d4e0064c712018071b3ab4b810b39a63
   HandyJSON: a9c67202df97805a0ba4a00e30b50e9a30ac28f3
 
-PODFILE CHECKSUM: df2eb5253d390e2abc1d90317d75036782bad225
+PODFILE CHECKSUM: cac62ebd2a6c4a47ec72eba2399aacb68e0280b4
 
 COCOAPODS: 1.15.2
